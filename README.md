@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 # Task Overview
 
-Given is a file (A) consisting of N, M-dimensional vectors in the Euclidean space.
+Given is a file (A), (`test.csv`) consisting of N, M-dimensional vectors in the Euclidean space.
 
 ## Tasks
 
@@ -30,6 +30,7 @@ By accepting input from the user in a loop, which would be the action and corres
 
 
 Thus, on executing the program, for example, user is presented with:
+```
 Enter an operation (rotate/translate): "rotate"  # user enters rotate
 Enter the angle of rotation and dimension around which to do it: 35 2  # ie, 35º around dimension 2
 Enter more operations? (Y/n): Y  # user wants more operations
@@ -37,7 +38,7 @@ Enter an operation (rotate/translate): "translate"  # user enters translate
 Enter the vector by which to translate: 2 -3 4 5 ...M values  # user enters the translation vector
 Enter more operations? (Y/n): n  # user is done
 <Program exits>
-
+```
 At the end of the program, a new file is created applying the operations collected above on the input file of N, M-dimensional vectors.
 
 #### References
